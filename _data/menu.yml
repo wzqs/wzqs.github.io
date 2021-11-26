@@ -1,0 +1,15 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: share
+      - title: "Inspired by <a href='https://github.com/riggraz/no-style-please/network/dependents'>no-style-pleas</a>"
+
+  - title: all_posts
+    post_list:
+      limit: 3
+      show_more: true
+      show_more_text: more
+      show_more_url: archive.html
