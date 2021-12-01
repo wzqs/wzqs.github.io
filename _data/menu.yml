@@ -9,7 +9,7 @@ entries:
 
   - title: all_posts
     post_list:
-      category: iot decrypt
+      category:
       limit: 3
       show_more: true
       show_more_text: more
