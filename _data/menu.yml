@@ -4,7 +4,10 @@
 entries:
   - title: info
     entries:
-      - title: share
+      - title: email
+        url: mailto:wz.qs@qq.com
+      - title: github
+        url: https://github.com/wzqs/
       - title: "Inspired by <a href='https://github.com/riggraz/no-style-please/network/dependents'>no-style-pleas</a>"
 
   - title: all_posts
@@ -12,4 +15,3 @@ entries:
       limit: 3
       show_more: true
       show_more_text: more
-      show_more_url: archive.html
