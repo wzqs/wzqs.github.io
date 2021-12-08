@@ -15,3 +15,26 @@ entries:
       limit: 3
       show_more: true
       show_more_text: more
+      
+  - title: posts by iot
+    post_list:
+      category: iot
+      limit: 3
+      show_more: true
+      show_more_text: more
+      
+  - title: posts by decrypt
+    post_list:
+      category: decrypt
+      limit: 3
+      show_more: true
+      show_more_text: more
+      
+  - title: posts by web_vulns
+    post_list:
+      category: web_vulns
+      limit: 3
+      show_more: true
+      show_more_text: more
+
+
