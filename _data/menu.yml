@@ -36,5 +36,12 @@ entries:
       limit: 3
       show_more: true
       show_more_text: more
+      
+  - title: posts by websec_test
+    post_list:
+      category: websec_test
+      limit: 3
+      show_more: true
+      show_more_text: more
 
 
