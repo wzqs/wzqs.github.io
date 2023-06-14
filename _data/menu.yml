@@ -4,44 +4,16 @@
 entries:
   - title: info
     entries:
-      - title: email
-        url: mailto:wz.qs@qq.com
       - title: github
         url: https://github.com/wzqs/
       - title: "Inspired by <a href='https://github.com/riggraz/no-style-please/network/dependents'>no-style-pleas</a>"
 
   - title: all_posts
     post_list:
-      limit: 3
+      limit: 10
       show_more: true
       show_more_text: more
       
-  - title: posts by iot
-    post_list:
-      category: iot
-      limit: 3
-      show_more: true
-      show_more_text: more
-      
-  - title: posts by decrypt
-    post_list:
-      category: decrypt
-      limit: 3
-      show_more: true
-      show_more_text: more
-      
-  - title: posts by web_vulns
-    post_list:
-      category: web_vulns
-      limit: 3
-      show_more: true
-      show_more_text: more
-      
-  - title: posts by websec_test
-    post_list:
-      category: websec_test
-      limit: 3
-      show_more: true
-      show_more_text: more
+
 
 
