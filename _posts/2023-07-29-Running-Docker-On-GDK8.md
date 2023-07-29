@@ -7,7 +7,7 @@ category: linux
 ---
 {: data-content="TL;DR"}
 
-记录下在 GDK8(RK3328) 中出现 `Devices cgroup isn't mounted` 导致 docker 无法正常启动的解决方案，该启动异常的主要原因是因为 Docker 所需的内核选项没有开启。
+记录下在 GDK8(RK3328) 中出现 **Devices cgroup isn't mounted** 导致 docker 无法正常启动的解决方案，该启动异常的主要原因是因为 Docker 所需的内核选项没有开启。
 
 参考：
 
@@ -50,7 +50,6 @@ cd kernel
 修改 kernel config 添加支持 Docker 所需的内核选项（参考第一步中的 miss 选项，示例仅供参考）
 
 ```
-
  mv arch/arm64/configs/rockchip_linux_defconfig arch/arm64/configs/rockchip_linux_defconfig.bak 
 cp -r /boot/config-4.19.161-yanzi arch/arm64/configs/rockchip_linux_defconfig  
 vim arch/arm64/configs/rockchip_linux_defconfig  
@@ -101,15 +100,10 @@ reboot
 
 ```  
 sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
-
 sudo rm -rf /var/lib/docker
-
 sudo rm -rf /var/lib/containerd
-
 curl -fsSL https://get.docker.com -o get-docker.sh
-
 sudo sh get-docker.sh
-
 sudo docker run hello-world
 ```
 
