@@ -22,19 +22,19 @@ https://docs.docker.com/engine/install/troubleshoot/
 
 使用官方脚本检查下当前内核对 docker 的兼容性
 
- ``` 
+```
 curl https://raw.githubusercontent.com/docker/docker/master/contrib/check-config.sh > check-config.sh 
 bash ./check-config.sh
- ```
+```
 
 根据上面的检查结果，将出现 miss 的选项记录下来，后面会用到。
 
 安装编译内核时会用到的软件包
 
- ```
+```
 sudo apt-get update
   sudo apt-get install bc liblz4-tool
- ```
+```
 
   下载内核源代码(言子-聊城2版本 4.19.161-yanzi)
 
