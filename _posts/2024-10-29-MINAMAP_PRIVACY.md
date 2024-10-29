@@ -4,9 +4,6 @@ title: MinaMap Privacy Policy
 category: dev
 ---
 
----
-{: data-content="MinaMap Privacy Policy"}
-
 Last Updated: 2024-10-29
 
 **Overview**
