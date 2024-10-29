@@ -1,12 +1,19 @@
-# MinaMap Privacy Policy
+---
+layout: post
+title: MinaMap Privacy Policy
+category: dev
+---
+
+---
+{: data-content="MinaMap Privacy Policy"}
 
 Last Updated: 2024-10-29
 
-## Overview
+{: data-content="Overview"}
 
 MinaMap is a Chrome extension designed to visualize $MINA transaction flows. We take your privacy seriously and are committed to not collecting any user data.
 
-## Data Collection Statement
+{: data-content="Data Collection Statement"}
 
 MinaMap does NOT:
 - Collect any personal identification information
@@ -14,7 +21,7 @@ MinaMap does NOT:
 - Store any user data
 - Share any information with third parties
 
-## Permissions Explanation
+{: data-content="Permissions Explanation"}
 
 Our extension requests the following permissions solely for basic functionality:
 
@@ -24,15 +31,15 @@ Our extension requests the following permissions solely for basic functionality:
 
 These permissions are never used to collect or transmit any user data.
 
-## Data Security
+{: data-content="Data Security"}
 
 Since we do not collect any user data, there is no risk of data breaches. All functionality operates locally within your browser.
 
-## Changes to This Policy
+{: data-content="Changes to This Policy"}
 
 If we make any changes to this privacy policy, we will update it here and notify users.
 
-## Contact Us
+{: data-content="Contact Us"}
 
 If you have any questions about our privacy policy, please contact us:
 - GitHub: [[MinaMap](https://github.com/wzqs/minamap/)]
