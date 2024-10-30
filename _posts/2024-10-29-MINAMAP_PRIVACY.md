@@ -23,8 +23,6 @@ MinaMap does NOT:
 Our extension requests the following permissions solely for basic functionality:
 
 1. `storage`: Used only for storing extension settings locally
-2. `activeTab`: Used to display transaction flow diagrams in the current tab
-3. `webRequest`: Used to read public transaction data from Mina blockchain explorers
 
 These permissions are never used to collect or transmit any user data.
 
